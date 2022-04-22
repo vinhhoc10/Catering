@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    color: #333;
+    font-family: "Times New Roman", serif;
+    line-height: 1.5;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h4,
+h5 {
+    letter-spacing: 5px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 16px;
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    z-index: 1;
+}
+
+.sub-nav {
+    display: flex;
+}
+
+.sub-nav-list {
+    list-style: none;
+}
+
+.home a,
+.sub-nav-list a {
+    display: block;
+    padding: 8px 16px;
+    letter-spacing: 4px;
+}
+
+.home:hover a,
+.sub-nav-list:hover a {
+    background-color: #ccc;
+}
+
+.banner {
+    position: relative;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.title h1 {
+    color: #58595c !important;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    margin: 10px 0;
+}
+
+.container {
+    width: 980px;
+    margin: 0 auto;
+}
+
+.padding-top {
+    padding-top: 64px;
+    display: flex;
+}
+
+p.desc {
+    text-align: justify;
+    margin: 22px 0;
+    color: #757575;
+}
+
+.history-text>p.desc:first-child {
+    color: #000;
+}
+
+.history-text,
+.menu-img img,
+.history-img img {
+    padding: 12px 24px;
+    text-align: center;
+}
+
+.menu-text,
+.history-text {
+    width: 50%;
+}
+
+.menu-img img,
+.history-img img,
+.contact-img img {
+    width: 100%;
+}
+
+.contact-text>h1,
+.menu-text>h1 {
+    text-align: center;
+}
+
+.contact {
+    padding-top: 64px;
+}
+
+form input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    line-height: 1.5;
+    padding: 16px !important;
+    outline: none;
+}
+
+form button {
+    width: 140px;
+    height: 40px;
+    margin: 34px 0;
+    line-height: 1.5;
+}
+
+form button:hover {
+    background-color: #ccc;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.footer p {
+    height: 40px;
+    width: 100%;
+    background-color: gainsboro;
+    text-align: center;
+    line-height: 40px;
+}
